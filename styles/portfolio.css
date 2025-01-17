@@ -179,3 +179,17 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
     margin-bottom: 24px;
     border: none;
 }
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .skills-container{
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+    .resume-container{
+        flex-wrap: wrap;
+        padding: 10px;
+        text-align: center;
+    }
+}
