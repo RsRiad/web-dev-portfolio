@@ -192,4 +192,54 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
         padding: 10px;
         text-align: center;
     }
+    .secondary-bg{
+        flex-direction: column;
+        margin-left: 10px;
+        padding: 0px;
+        /* text-align: center; */
+    }
+    .footer-column{
+        /* text-align: center; */
+        /* justify-content: center; */
+        /* margin-left: 100px; */
+        width: auto;
+        /* padding: 10px 10px; */
+    }
+    form{
+        width: 80%;
+    }
+    .about-items{
+        flex-direction: column;
+    }
+    .banner{
+        /* text-align: center; */
+        align-content: center;
+        flex-direction: column;
+        margin: 0px;
+    }
+    .banner-content{
+        width: 100px;
+    }
+    .banner-description{
+        width: 200px;
+    }
+    .btn-primary{
+        margin-bottom: 10px;
+    }
+    .banner-profile-pic{
+        align-content: left;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner-profile-pic{
+        width: 100%;
+    }
+    nav{
+        flex-direction: column;
+    }
+    ul{
+        padding: 10px;
+    }
+
 }
